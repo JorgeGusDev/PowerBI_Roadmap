@@ -31,26 +31,28 @@
 
 ### Paso 1: Visual inicial
 - **Eje X:** Age  
-- **Valores:** Total Employees  
-
+- **Eje Y:** Número de Employees
+- **Leyenda:** Attrition
 ### Paso 2: Agrupación
+- En age -> crear grupos
 - Crear **bins en Age** (grupos de edad).
 - Reemplazar Age por Age (bin) en el eje.
 
 ---
 
 ## 🔹 Mapa – Ubicaciones
-- **Campo:** OFFICE  
-- Corregir categoría de datos en el modelo (.XLS correctamente tipificado).
-- Realizar conexión geográfica (City ↔ Office).
-- Agregar **Latitude, Longitude y Total Employees**.
-- Validar geocodificación correcta.
+- Ubicación: Office
+- Validar ubicaciones
+- Corregir categoría de datos en el modelo (.XLS).
+- Realizar conexión en el model view (City ↔ Office).
+- Agregar campos: **Latitude, Longitude y tamaño de burbuja (Total Employees)**.
+- Validar ubicaciones correcta.
 
 ---
 
 ## 🔹 Gráfico de Barras – Empleados por Años en la Empresa y Attrition
 - **Eje X:** YearsAtCompany  
-- **Valores:** Total Employees  
+- **Eje Y:** Total Employees  
 - **Leyenda:** Attrition  
 
 ---
@@ -69,15 +71,15 @@ Revisar segmentaciones principales (Top segments).
 ---
 
 ## 🔹 Matriz – Departamentos e Ingreso Promedio Mensual
-- **Filas:** Department  
-- **Valores:** Average Monthly Income  
+- **Columnas:** Department  
+- **Columnas:** Average Monthly Income  
 - Validar resultados con Q&A.
 
 ---
 
 ## 🔹 Gauge
 - Indicador visual de métrica clave.
-- Agregar slicers para:
+- Agregar Gauge para:
   - Job Satisfaction  
   - Performance Rating  
 
