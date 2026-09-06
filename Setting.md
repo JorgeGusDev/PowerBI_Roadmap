@@ -2,7 +2,8 @@
 
 ## 1️⃣ Cargar Datos
 - Importar dataset (Excel / CSV / Base de datos).
-- Transform Data → verificar tipos de datos (ingresos en moneda, porcentajes correctos).
+- Transform Data → verificar tipos de datos. DailyRate a Fixed decmal number - MonthlyIncome a Fixed decmal number - PercetnSalaryHike a
+  percentage (Transform / standerd / divide 100 / ok)
 
 ---
 
@@ -16,6 +17,8 @@
 
 ## 🔹 Card – Cantidad de Empleados
 - Visual tipo **Card**.
+- Para mostrar el número completo en una tarjeta de Power BI, selecciona la tarjeta y ve a Formato del objeto visual. En Aplicar configuración a, selecciona el nombre de la tarjeta que deseas modificar; recién entonces aparecerá la opción Llamada. Ingresa a Llamada → Valor y busca Unidades de visualización. Cambia Automático por Ninguno y establece los decimales en 0. De esta manera, el valor 1.47 mil se mostrará como 1470.
+- 
 - Validar resultado con Q&A (ej. “¿Cuántos empleados hay?”).
 
 ---
