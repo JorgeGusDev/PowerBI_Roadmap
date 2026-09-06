@@ -9,7 +9,7 @@
 
 ## 2️⃣ Revisar Model View
 - Verificar relaciones entre tablas.
-- Confirmar cardinalidad correcta (1:*).
+- Confirmar cardinalidad correcta.
 
 ---
 
@@ -18,7 +18,7 @@
 ## 🔹 Card – Cantidad de Empleados
 - Visual tipo **Card**.
 - Para mostrar el número completo en una tarjeta de Power BI, selecciona la tarjeta y ve a Formato del objeto visual. En Aplicar configuración a, selecciona el nombre de la tarjeta que deseas modificar; recién entonces aparecerá la opción Llamada. Ingresa a Llamada → Valor y busca Unidades de visualización. Cambia Automático por Ninguno y establece los decimales en 0. De esta manera, el valor 1.47 mil se mostrará como 1470.
-- 
+  
 - Validar resultado con Q&A (ej. “¿Cuántos empleados hay?”).
 
 ---
@@ -62,7 +62,8 @@
 
 ## 🔹 Gráfico de Influencias (Key Influencers)
 
-Analizar impacto sobre **Attrition** considerando:
+Analizar: **Attrition** considerando:
+Explicar por:
 - Overtime  
 - YearsAtCompany  
 - Performance Rating  
@@ -75,16 +76,17 @@ Revisar segmentaciones principales (Top segments).
 
 ## 🔹 Matriz – Departamentos e Ingreso Promedio Mensual
 - **Columnas:** Department  
-- **Columnas:** Average Monthly Income  
+- **Valores:** Average Monthly Income  
 - Validar resultados con Q&A.
 
 ---
 
 ## 🔹 Gauge
 - Indicador visual de métrica clave.
-- Agregar Gauge para:
-  - Job Satisfaction  
-  - Performance Rating  
+- Agregar Gauge 1:
+  - VALOR: Job Satisfaction
+- Agregar Gauge 2:
+  - VALOR: Performance Rating  
 
 ---
 
